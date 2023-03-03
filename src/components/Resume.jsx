@@ -4,15 +4,20 @@ import Education from './Education';
 import Experience from './Experience';
 import "./Resume.css";
 import React from 'react';
-import Data from './../Data';
+import resume from "./../Data";
 
-function Resume() {
+
+function Resume({education,skills,experience}) {
   return (
     <div className="container">
-      <Header/>
-      <Education/>
-      <Skills/>
-      <Experience/>
+<Header/>
+<Education />
+<Experience/>
+<Skills/>
+
+
+   
+
       
     </div>
       

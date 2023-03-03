@@ -1,4 +1,4 @@
-const resume={
+const resume=[{
     experience:[
         {
             year:2012,
@@ -8,7 +8,7 @@ const resume={
     ],
     education:['B.Tech'],
     skills:['react js','node js','javascript']
-}
+}]
 
 
 export default resume;
